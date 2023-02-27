@@ -1,0 +1,8 @@
+Bacterial Spot
+Healthy Leaf
+Early Blight
+Late Blight
+Leaf Curl Virus
+Leaf Mold
+Mosaic Virus
+Image is not Tomato

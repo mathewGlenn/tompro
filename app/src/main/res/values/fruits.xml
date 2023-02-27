@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ht_info">
+Tomatoes are technically a fruit because they fit the botanical definition of one: they are the fleshy parts of a plant that surround its seeds. However, for nutritional and culinary purposes, tomatoes are considered a vegetable due to their taste, use in meals, and nutrient content.\n\nTomatoes are low in calories and provide important nutrients like vitamin C and potassium. They\'re also rich in antioxidants—one called lycopene, responsible for tomatoes\' characteristic color, is linked to several benefits, such as a reduced risk of heart disease and certain cancers.
+    </string>
+
+
+    <string name="ant_info">
+Anthracnose is a common and widespread rot of ripe or overripe tomato fruit. Symptoms are rare on green fruit. Symptoms on ripe fruit are small, sunken, circular spots that may increase in size up to 1/2 inch in diameter. The center of older spots later become blackish. Spots may become numerous in severe cases and secondary rotting organisms may invade anthracnose lesions to completely rot infected fruit. The fungus forms small, dark survival structures called sclerotia in the centers of fruit spots. These sclerotia survive in soil for up to three years and cause infections either directly or by producing secondary spores. Green fruit are infected but do not show symptoms until ripening. The fungus then spreads from infected to healthy fruit as spores are splashed by rain or overhead irrigation, or by pickers working wet plants. Anthracnose is favored by warm rainy weather, overhead irrigation, and heavy defoliation caused by early blight.
+    </string>
+
+
+    <string name="ber_info">
+Blossom end rot often occurs on the first fruits formed on plants.  Initially, water-soaked spots (resembling small bruises) appear, most often on the blossom ends of fruits.  On peppers these spots can resemble sunscald and can form on the sides of the fruits near the blossom end.  Spots enlarge, becoming dark brown to black, sunken and leathery.  Half the fruit may eventually be affected.  Sometimes, when a fruit is cut, the exterior will be sound, but the interior will be discolored and shrunken.  Often, bacteria and fungi invade the discolored areas, leading to tissue decay.
+    </string>
+
+
+    <string name="bs_fruit_info">
+Bacterial spot of tomato is a potentially devastating disease that, in severe cases, can lead to unmarketable fruit and even plant death.  Bacterial spot can occur wherever tomatoes are grown, but is found most frequently in warm, wet climates, as well as in greenhouses.\n\nBacterial spot can affect all above ground parts of a tomato plant, including the leaves, stems, and fruit.  Bacterial spot appears on leaves as small (less than ⅛ inch), sometimes water-soaked (i.e., wet-looking) circular areas.  Spots may initially be yellow-green, but darken to brownish-red as they age.  When the disease is severe, extensive leaf yellowing and leaf loss can also occur.  On green fruit, spots are typically small, raised and blister-like, and may have a yellowish halo.  As fruit mature, the spots enlarge (reaching a maximum size of ¼ inch) and turn brown, scabby and rough.  Mature spots may be raised, or sunken with raised edges.  Bacterial spot symptoms can be easily confused with symptoms of another tomato disease called bacterial speck.
+    </string>
+
+    <string name="overripe_info">
+        fff
+    </string>
+</resources>

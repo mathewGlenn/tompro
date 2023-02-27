@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backround_tomato"
+    tools:context=".FruitQuality">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="260dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:id="@+id/Predictbttn1"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Predict disease"
+        app:icon="@android:drawable/ic_dialog_info" />
+
+    <TextView
+        android:id="@+id/result1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="Result: "
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:layout_below="@id/Predictbttn1"/>
+
+    <TextView
+        android:id="@+id/resultView1"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_below="@id/result1"
+        android:layout_marginTop="-1dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/description1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/resultView1"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/Takephoto1"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        app:icon="@android:drawable/ic_menu_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take a Photo"
+        android:layout_below="@id/description1"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/UploadPhotoBttn1"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        app:icon="@android:drawable/stat_sys_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Image"
+        android:layout_below="@id/Takephoto1"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

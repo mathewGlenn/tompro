@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bs_info">
+Because the most obvious symptoms occur on leaves, the disease is often referred to as "bacterial leaf spot." Symptoms begin as small, yellow-green lesions on young leaves which usually appear deformed and twisted (Figure 8), or as dark, water soaked, greasy-appearing lesions on older foliage. Lesions develop rapidly to a size of 0.25 to 0.5 cm (0.1 to 0.2 in.) wide and become tan to brownish-red. Lesion shape is defined by leaf veinlets, so the shape is angular rather than the round shape that is more typical of fungal leaf spots or injury caused by some pesticides or other chemical sprays.
+
+Lesions often are more numerous at the tip and margin of the leaf where moisture such as dew is retained. Under dry conditions, diseased leaves can develop a tattered appearance as the leaf margin and lesion centers become necrotic, dry up and disintegrate. Lesion size is often larger and symptoms are more severe when extended periods (> 12 hours) of moisture-saturated tissue occur.
+    </string>
+
+
+    <string name="eb_info">
+Symptoms of early blight can occur on the foliage, fruit, and stem at any stage of development. The disease is more commonly observed in the field, however, seedlings in the greenhouse can be affected by collar rot (also caused by species of Alternaria).
+
+Lesions first develop on lower leaves as small, brownish-black spots which can expand to about 1⁄4 - 1⁄2-inch in diameter with characteristic concentric rings in the darkened area. The area surrounding the lesions may become yellow and, as disease progresses, the entire leaf may turn yellow. In later stages, lesions may appear in the upper leaves and defoliation may occur in the lower part of the plant leaving the fruit susceptible to sunscald.
+
+Fruit may become infected through the calyx around the stem attachment and are susceptible in the green or red stage. Lesions can expand to cover the entire fruit and are typically sunken, leathery, and dark brown to black with concentric rings.
+    </string>
+
+
+    <string name="lb_info">
+Leaf symptoms of late blight first appear as small, water-soaked areas that rapidly enlarge to form purple-brown, oily-appearing blotches. On the lower side of leaves, rings of grayish white mycelium and spore-forming structures may appear around the blotches. Entire leaves die and infections quickly spread to petioles and young stems. Infected fruit turn brown but remain firm unless infected by secondary decay organisms; symptoms usually begin on the shoulders of the fruit because spores land on fruit from above.
+    </string>
+
+
+    <string name="lcv_info">
+Tomato yellow leaf curl is a disease of tomato caused by Tomato yellow leaf curl virus. In March 2007, it was identified for the first time in California and currently has a limited distribution. An educational brochure (PDF) was created at that time and is available to print.
+
+Infected tomato plants initially show stunted and erect or upright plant growth; plants infected at an early stage of growth will show severe stunting. However, the most diagnostic symptoms are those in leaves.
+
+Leaves of infected plants are small and curl upward; and show strong crumpling and interveinal and marginal yellowing. The internodes of infected plants become shortened and, together with the stunted growth, plants often take on a bushy appearance, which is sometimes referred to as \'bonsai\' or broccoli\'-like growth. Flowers formed on infected plants commonly do not develop and fall off (abscise). Fruit production is dramatically reduced, particularly when plants are infected at an early age, and it is not uncommon for losses of 100% to be experienced in fields with heavily infected plants.
+    </string>
+
+
+    <string name="lm_info">
+Tomato leaf mold is a foliar disease that is especially problematic in greenhouse and high tunnels. It was first described in 1883 as a pathogen that causes leaf lesions. It is less common in the field compared to greenhouses and high tunnels. With the rise of high tunnel construction in New York State through assistance programs by the Natural Resources Conservation Service, tomato leaf mold is appearing more frequently. High tunnels allow for season extension of high value crops such as tomatoes, yet the structures are also conducive to the growth of tomato leaf mold, which favors humid, dry conditions. Despite the slower progression of disease compared to a pathogen such as Phytophthora infestans, management is still crucial because tomatoes are a high value crop and consistent yields are an important source of income for growers.
+    </string>
+
+
+    <string name="mv_info">
+Tomato mosaic virus (ToMV) is a member of family tobamoviridae and belongs to the genus tobamovirus, which is a plant pathogenic virus. It is found worldwide and affects tomatoes and many other wide host range plants including many agricultural crops and weeds such as tobacco and beans, all of which can serve as inoculum sources. The tomato crop is highly susceptible to the Tomato mosaic virus (ToMV). The symptoms vary from tiles, wrinkle, reduction and curvature of leaflets, and irregular ripening of fruits. This disease requires attention because of its easy dissemination by contact, cultural practices, or contaminated seed.
+    </string>
+</resources>

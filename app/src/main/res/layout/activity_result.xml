@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<LinearLayout
+    android:visibility="gone"
+    android:id="@+id/layoutNoTomato"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/tom"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The image you captured was not recognized by the application. Make sure to capture a clear photo of the tomato leaf/fruit."
+        android:paddingHorizontal="30dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="15sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick another photo"
+        android:id="@+id/btnPickAnotherPhoto"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
+
+    <ImageView
+
+        android:src="@drawable/sample_im"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_centerHorizontal="true" />
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/layoutInfo"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        android:layout_width="match_parent"
+        android:paddingHorizontal="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gray Leaf Spot"
+            app:layout_constraintTop_toBottomOf="@id/imageView"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+
+            android:id="@+id/dName"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus."
+            app:layout_constraintTop_toBottomOf="@id/dName"
+
+            android:layout_marginTop="20dp"
+            android:lineHeight="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/dInfoResult"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:text="Any suggestions?"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:text="Do you have any questions or suggestions about this app? Click the button below and write us an email."
+            />
+        <Button
+            android:layout_marginBottom="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Write an email"
+            android:layout_marginTop="5dp"
+            android:id="@+id/btnEmail"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
